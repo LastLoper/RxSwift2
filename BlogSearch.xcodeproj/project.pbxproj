@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		515B418A29389A3C0018C374 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B418929389A3C0018C374 /* SearchBar.swift */; };
+		515B418C29389E1E0018C374 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B418B29389E1E0018C374 /* FilterView.swift */; };
+		515B418E29389F720018C374 /* BlogList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B418D29389F720018C374 /* BlogList.swift */; };
+		515B419029389F820018C374 /* BlogListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B418F29389F820018C374 /* BlogListCell.swift */; };
+		515B419229389F8A0018C374 /* BlogListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B419129389F8A0018C374 /* BlogListCellData.swift */; };
+		515B419A2938ACBB0018C374 /* AlertActionConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B41992938ACBB0018C374 /* AlertActionConvertible.swift */; };
+		515B419C2938B60B0018C374 /* TistoryBlog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B419B2938B60B0018C374 /* TistoryBlog.swift */; };
+		515B419E2938B7FE0018C374 /* SearchBlogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B419D2938B7FE0018C374 /* SearchBlogAPI.swift */; };
+		515B41A12938B8BE0018C374 /* SearchBlogNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B41A02938B8BE0018C374 /* SearchBlogNetwork.swift */; };
 		519824302935DB4900E68F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5198242F2935DB4900E68F27 /* AppDelegate.swift */; };
 		519824322935DB4900E68F27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519824312935DB4900E68F27 /* SceneDelegate.swift */; };
 		519824342935DB4900E68F27 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519824332935DB4900E68F27 /* MainVC.swift */; };
 		519824392935DB4B00E68F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 519824382935DB4B00E68F27 /* Assets.xcassets */; };
 		5198243C2935DB4B00E68F27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5198243A2935DB4B00E68F27 /* LaunchScreen.storyboard */; };
+		DA5F2EFDF663FA669C6B1CA6 /* Pods_BlogSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302C09BA87C10E2795CA9DF5 /* Pods_BlogSearch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		302C09BA87C10E2795CA9DF5 /* Pods_BlogSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlogSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42917CFBBAFEA999F6784429 /* Pods-BlogSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogSearch.debug.xcconfig"; path = "Target Support Files/Pods-BlogSearch/Pods-BlogSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		4F1A8F06F933CABA0CDBD818 /* Pods-BlogSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogSearch.release.xcconfig"; path = "Target Support Files/Pods-BlogSearch/Pods-BlogSearch.release.xcconfig"; sourceTree = "<group>"; };
+		515B418929389A3C0018C374 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		515B418B29389E1E0018C374 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		515B418D29389F720018C374 /* BlogList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogList.swift; sourceTree = "<group>"; };
+		515B418F29389F820018C374 /* BlogListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListCell.swift; sourceTree = "<group>"; };
+		515B419129389F8A0018C374 /* BlogListCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListCellData.swift; sourceTree = "<group>"; };
+		515B41992938ACBB0018C374 /* AlertActionConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertActionConvertible.swift; sourceTree = "<group>"; };
+		515B419B2938B60B0018C374 /* TistoryBlog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TistoryBlog.swift; sourceTree = "<group>"; };
+		515B419D2938B7FE0018C374 /* SearchBlogAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBlogAPI.swift; sourceTree = "<group>"; };
+		515B41A02938B8BE0018C374 /* SearchBlogNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBlogNetwork.swift; sourceTree = "<group>"; };
 		5198242C2935DB4900E68F27 /* BlogSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5198242F2935DB4900E68F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		519824312935DB4900E68F27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,17 +51,83 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA5F2EFDF663FA669C6B1CA6 /* Pods_BlogSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		515B419329389F9E0018C374 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				519824332935DB4900E68F27 /* MainVC.swift */,
+				515B41952938ABC60018C374 /* SubComponent */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		515B419429389FA80018C374 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				515B419129389F8A0018C374 /* BlogListCellData.swift */,
+				515B41992938ACBB0018C374 /* AlertActionConvertible.swift */,
+				515B419B2938B60B0018C374 /* TistoryBlog.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		515B41952938ABC60018C374 /* SubComponent */ = {
+			isa = PBXGroup;
+			children = (
+				515B41962938ABDB0018C374 /* SearchBar */,
+				515B41972938ABE70018C374 /* BlogListView */,
+			);
+			path = SubComponent;
+			sourceTree = "<group>";
+		};
+		515B41962938ABDB0018C374 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				515B418929389A3C0018C374 /* SearchBar.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		515B41972938ABE70018C374 /* BlogListView */ = {
+			isa = PBXGroup;
+			children = (
+				515B418D29389F720018C374 /* BlogList.swift */,
+				515B41982938AC0B0018C374 /* SubComponent */,
+			);
+			path = BlogListView;
+			sourceTree = "<group>";
+		};
+		515B41982938AC0B0018C374 /* SubComponent */ = {
+			isa = PBXGroup;
+			children = (
+				515B418B29389E1E0018C374 /* FilterView.swift */,
+				515B418F29389F820018C374 /* BlogListCell.swift */,
+			);
+			path = SubComponent;
+			sourceTree = "<group>";
+		};
+		515B419F2938B8080018C374 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				515B419D2938B7FE0018C374 /* SearchBlogAPI.swift */,
+				515B41A02938B8BE0018C374 /* SearchBlogNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		519824232935DB4900E68F27 = {
 			isa = PBXGroup;
 			children = (
 				5198242E2935DB4900E68F27 /* BlogSearch */,
 				5198242D2935DB4900E68F27 /* Products */,
+				D6B1E83BA87651B118E88981 /* Pods */,
+				BADF1408D13F57406BDECD99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +144,31 @@
 			children = (
 				5198242F2935DB4900E68F27 /* AppDelegate.swift */,
 				519824312935DB4900E68F27 /* SceneDelegate.swift */,
-				519824332935DB4900E68F27 /* MainVC.swift */,
+				515B419F2938B8080018C374 /* Network */,
+				515B419429389FA80018C374 /* Entities */,
+				515B419329389F9E0018C374 /* Presentation */,
 				519824382935DB4B00E68F27 /* Assets.xcassets */,
 				5198243A2935DB4B00E68F27 /* LaunchScreen.storyboard */,
 				5198243D2935DB4B00E68F27 /* Info.plist */,
 			);
 			path = BlogSearch;
+			sourceTree = "<group>";
+		};
+		BADF1408D13F57406BDECD99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				302C09BA87C10E2795CA9DF5 /* Pods_BlogSearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6B1E83BA87651B118E88981 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42917CFBBAFEA999F6784429 /* Pods-BlogSearch.debug.xcconfig */,
+				4F1A8F06F933CABA0CDBD818 /* Pods-BlogSearch.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 519824402935DB4B00E68F27 /* Build configuration list for PBXNativeTarget "BlogSearch" */;
 			buildPhases = (
+				86CBF6E631DE9EA3EACB3F4D /* [CP] Check Pods Manifest.lock */,
 				519824282935DB4900E68F27 /* Sources */,
 				519824292935DB4900E68F27 /* Frameworks */,
 				5198242A2935DB4900E68F27 /* Resources */,
+				39A638CA501DD0876085898C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,14 +238,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39A638CA501DD0876085898C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlogSearch/Pods-BlogSearch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlogSearch/Pods-BlogSearch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlogSearch/Pods-BlogSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86CBF6E631DE9EA3EACB3F4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlogSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		519824282935DB4900E68F27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				519824342935DB4900E68F27 /* MainVC.swift in Sources */,
+				515B419029389F820018C374 /* BlogListCell.swift in Sources */,
+				515B418E29389F720018C374 /* BlogList.swift in Sources */,
+				515B419229389F8A0018C374 /* BlogListCellData.swift in Sources */,
+				515B419E2938B7FE0018C374 /* SearchBlogAPI.swift in Sources */,
+				515B418A29389A3C0018C374 /* SearchBar.swift in Sources */,
 				519824302935DB4900E68F27 /* AppDelegate.swift in Sources */,
+				515B419C2938B60B0018C374 /* TistoryBlog.swift in Sources */,
+				515B418C29389E1E0018C374 /* FilterView.swift in Sources */,
 				519824322935DB4900E68F27 /* SceneDelegate.swift in Sources */,
+				515B41A12938B8BE0018C374 /* SearchBlogNetwork.swift in Sources */,
+				515B419A2938ACBB0018C374 /* AlertActionConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +430,7 @@
 		};
 		519824412935DB4B00E68F27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42917CFBBAFEA999F6784429 /* Pods-BlogSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -300,6 +461,7 @@
 		};
 		519824422935DB4B00E68F27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1A8F06F933CABA0CDBD818 /* Pods-BlogSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
